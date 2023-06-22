@@ -1,0 +1,104 @@
+html{
+    background-color: black;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+.topbar{
+    background-color: darkslategrey;
+    border: 1px solid #99eeff;
+    border-radius: 1000px;
+    padding: 10px;
+    margin: 1px;
+    
+}
+.topcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    
+}
+.topbar h3{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.links{
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+}
+a:link{
+    color:blanchedalmond
+}
+a:visited{
+    color:beige
+}
+a:hover{
+
+    color:brown
+}
+a:active{
+    color:aquamarine
+}
+
+/* Projects page */
+.projectscontainer{
+    padding: 5px;
+    background-color: #0F0F0F;
+    border: 1px solid antiquewhite;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project{
+    border: 1px solid #F0F099;
+    background-color: #000000;
+    border-radius: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+.projectimg{
+    border-radius: 10px;
+}
+.projecttext{
+    background-color:   #201000;
+    padding:10px;
+    border-radius: 10px;
+    border: 1px solid #804020;
+}
+
+/* Contacts page */
+.contacts{
+    padding: 5px;
+    margin: 10px;
+    background-color: #0F0F0F;
+    border: 1px solid antiquewhite;
+    border-radius: 25px;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+.contact{
+    background-color: #201000;
+    padding:1px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #804020;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+/* .contact h3{
+
+} */
+.contactDetail{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* Index page */
+.explain{
+    background-color: #201000;
+    padding:1px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #804020;
+    margin: 10px;
+}
